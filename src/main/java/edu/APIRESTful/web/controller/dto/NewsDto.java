@@ -4,9 +4,7 @@ import edu.APIRESTful.domain.model.News;
 
 public record NewsDto(Long id, String icon, String description) {
 
-    public NewsDto(News model) {
-        this(model.getId(), model.getIcon(), model.getDescription());
-    }
+    public NewsDto(News model) {this(model.getId(), model.getIcon(), model.getDescription());}
 
     public News toModel() {
         News model = new News();

@@ -1,7 +1,6 @@
 package edu.APIRESTful.web.controller.dto;
 
 import edu.APIRESTful.domain.model.Card;
-
 import java.math.BigDecimal;
 
 public record CardDto(Long id, String number, BigDecimal limit) {

@@ -1,7 +1,6 @@
 package edu.APIRESTful.web.controller.dto;
 
 import edu.APIRESTful.domain.model.User;
-
 import java.util.List;
 
 import static java.util.Collections.emptyList;

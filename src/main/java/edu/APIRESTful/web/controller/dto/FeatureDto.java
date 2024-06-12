@@ -4,9 +4,7 @@ import edu.APIRESTful.domain.model.Feature;
 
 public record FeatureDto(Long id, String icon, String description) {
 
-    public FeatureDto(Feature model) {
-        this(model.getId(), model.getIcon(), model.getDescription());
-    }
+    public FeatureDto(Feature model) {this(model.getId(), model.getIcon(), model.getDescription());}
 
     public Feature toModel() {
         Feature model = new Feature();

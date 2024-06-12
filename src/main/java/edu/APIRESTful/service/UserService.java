@@ -1,4 +1,6 @@
 package edu.APIRESTful.service;
 
-public interface UserService {
+import edu.APIRESTful.domain.model.User;
+
+public interface UserService extends CrudService<Long, User>{
 }
